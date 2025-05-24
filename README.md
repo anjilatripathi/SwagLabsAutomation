@@ -1,6 +1,6 @@
 ### Selenium Automation Using SwagLabs
 
-Designed and developed an automated testing suite for the [SwagLabs Demo Website](https://www.saucedemo.com/), covering essential e-commerce workflows such as login, product filtering, cart operations, and checkout process.
+Designed and developed an automated testing suite for the [SwagLabs Demo Website](https://www.saucedemo.com/v1/), covering essential e-commerce workflows such as login, product filtering, cart operations, and checkout process.
 
 ---
 
