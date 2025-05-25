@@ -13,9 +13,9 @@ public class LoginTest extends Base
     }
     @Test
     public void testValidLogin()
-{
-    Login login = new Login(driver,wait);
-    login.validLogin("standard_user","secret_sauce");
-}
+    {
+        Login login = new Login(driver,wait);
+        login.validLogin("standard_user","secret_sauce");
+    }
 
 }
