@@ -19,12 +19,15 @@ public class Base
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("https://www.saucedemo.com/v1/");
+        driver.get("https://www.saucedemo.com/v1");
     }
     @AfterClass
     public void tearDown()
     {
-        driver.quit();
+        if (driver != null)
+        {
+            driver.quit();
+        }
     }
 
 }
