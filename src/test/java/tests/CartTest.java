@@ -10,7 +10,7 @@ public class CartTest extends Base
     public void cartInfo()
     {
         Cart c = new Cart(driver,wait);
-        c.addFirstProductToCart();
+        c.addProductsToCart();
         c.goToCart();
         c.proceedToCheckout();
     }
