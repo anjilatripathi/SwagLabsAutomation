@@ -24,8 +24,8 @@ public class Cart {
         this.wait = wait;
     }
 
-    // Add first product to cart
-    public void addFirstProductToCart() {
+    // Add products to cart
+    public void addProductsToCart() {
         WebElement prodButton1 = wait.until(visibilityOfElementLocated(product1));
         prodButton1.click();
         WebElement prodButton2 = wait.until(visibilityOfElementLocated(product2));
